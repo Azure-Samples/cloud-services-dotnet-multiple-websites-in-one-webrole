@@ -1,4 +1,4 @@
- ---
+---
 services: cloud-services
 platforms: dotnet
 author: msonecode
