@@ -44,13 +44,13 @@ Switch to ServiceDefinition.csdef file, replace the __physicalDirectory__ in __S
   127.0.0.1  www.firstsite.com
   127.0.0.1  www.secondsite.com
   127.0.0.1  www.thirdsite.com
-```
-
+```  
 <img src="https://github.com/zhangdingsong/AzureMultipleWebsitesOneWebrole/blob/master/3.jpg">
+
 4.	Open command console and ping to check if the dns name can be used.<br/>
 `Ping www.firstsite.com`  
-
 <img src="https://github.com/zhangdingsong/AzureMultipleWebsitesOneWebrole/blob/master/4.jpg">
+
 5.	Run the solution, and visit three websites in your web browser.<br/>
 <img src="https://github.com/zhangdingsong/AzureMultipleWebsitesOneWebrole/blob/master/1.jpg">
 
