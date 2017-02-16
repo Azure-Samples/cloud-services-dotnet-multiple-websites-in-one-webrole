@@ -4,10 +4,10 @@ platforms: dotnet
 author: msonecode
 ---
 
-# Host Multiple Websites within One Azure WebRole using Visual Studio 2015
+# Host multiple websites within one Azure webrole using Visual Studio 2015
 
 ##Introduction
-An example of how to host multiple websites within one Azure webrole using Visual Studio 2015. This is a supplement and implement of Azure official video: [Multiple Websites in a Web Role](https://channel9.msdn.com/Shows/Cloud+Cover/Cloud-Cover-Episode-37-Multiple-Websites-in-a-Web-Role).  Because that post is dated 2011, maybe updates for the past years allows for a more friendly and better approach. This post will give you the latest version of implementation.
+This example shows how to host multiple websites within one Azure webrole using Visual Studio 2015. This is a supplement and implement for Azure official video: [Multiple Websites in a Web Role](https://channel9.msdn.com/Shows/Cloud+Cover/Cloud-Cover-Episode-37-Multiple-Websites-in-a-Web-Role).  Since that post is dated to 2011, updates for the past years could bring about a better approach. This post will give you the latest version of implementation.
 <br/><br/>
 Video guide,<br/>
 https://channel9.msdn.com/Shows/Cloud+Cover/Cloud-Cover-Episode-37-Multiple-Websites-in-a-Web-Role
@@ -27,19 +27,19 @@ https://www.visualstudio.com/downloads/
 
 ***3. ASP.NET MVC 5***
 <br/>
-The tutorial assumes you have worked with ASP.NET MVC and Visual Studio. If you need an introduction, see [Getting Started with ASP.NET MVC 5](http://www.asp.net/mvc/overview/getting-started/introduction/getting-started).
+The tutorial assumes that you have worked with ASP.NET MVC and Visual Studio. If you need an introduction, see [Getting Started with ASP.NET MVC 5](http://www.asp.net/mvc/overview/getting-started/introduction/getting-started).
 
 ***4. Azure SDK***
 <br/>
 The tutorial is written for Visual Studio 2015 with the [Azure SDK for .NET 2.9](https://azure.microsoft.com/en-us/documentation/articles/dotnet-sdk/) or later.
-[Download the latest Azure SDK for Visual Studio 2015](http://go.microsoft.com/fwlink/?linkid=518003). The SDK installs Visual Studio 2015 if you don't already have it.
+[Download the latest Azure SDK for Visual Studio 2015](http://go.microsoft.com/fwlink/?linkid=518003). The SDK installs Visual Studio 2015 if you don't have it.
 
 ## Run the sample
 1. Please first download my test VS solution MultipleWebSite.zip for your reference.
-2. After you downloaded, please unzip it and open the main “MultiWebsitesOneWebRole” solution as Administrator.
+2. After downloading, please unzip it and open the main “MultiWebsitesOneWebRole” solution as Administrator.
 Switch to ServiceDefinition.csdef file, replace the __physicalDirectory__ in __Site__ section according to your configuration.<br/>
 <img src="https://github.com/zhangdingsong/AzureMultipleWebsitesOneWebrole/blob/master/2.jpg">
-3. Add below info into your host file<br/>
+3. Add below info to your host file<br/>
 ```
   127.0.0.1  www.firstsite.com
   127.0.0.1  www.secondsite.com
